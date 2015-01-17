@@ -104,4 +104,3 @@ selection 就是 `pattern { action }` 中的 `pattern`，可以通过三种方�
     { for (i = NF; i > 0; i = i - 1) printf("%s " $i)
       printf("\n" )
     }
-
