@@ -25,6 +25,10 @@ tags: ['Ruby on Rails']
 
 Join 基于一个共同的字段，从两个或者更多的表中把多行进行结合。参考：[W3School](http://www.w3schools.com/sql/sql_join.asp).
 
+2015.8.31 更新：
+
+突然收到 udemy 一位朋友的 Email，说我引用了 W3School 的 sql 学习资源，问我觉得这个怎么样，有没有什么想法建议。他也做了一份关于 [SQL 的教程](https://blog.udemy.com/beginners-guide-to-sql/)，我看了下只有 CRUD 的基础部分，不过胜在图文详细，作为 SQL 的基础内容可以一看。
+
 Rails 中创建 join table 的方法：
 
     rails g migration CreateJoinTableCustomerProduct customer product
